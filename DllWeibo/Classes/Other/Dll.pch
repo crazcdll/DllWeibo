@@ -1,0 +1,44 @@
+//
+//  Dll.pch
+//  DllWeibo
+//
+//  Created by zcdll on 16/5/8.
+//  Copyright © 2016年 ZC. All rights reserved.
+//
+
+//#ifndef Dll_pch
+//#define Dll_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#define DllKeyWindow [UIApplication sharedApplication].keyWindow
+
+/**
+ *  cell
+ */
+#define DllStatusCellMargin 10
+#define DllNameFont [UIFont systemFontOfSize:13]
+#define DllTimeFont [UIFont systemFontOfSize:12]
+#define DllSourceFont DllTimeFont
+#define DllTextFont [UIFont systemFontOfSize:15]
+#define DllScreenW [UIScreen mainScreen].bounds.size.width
+
+// ...表示宏定义的可变参数
+// _VA_ARGS_
+
+#ifdef DEBUG //调试
+#define DllLog(...) NSLog(__VA_ARGS__)
+
+#else //发布
+
+#define DllLog(...)
+
+#endif
+
+#endif /* Dll_pch */
