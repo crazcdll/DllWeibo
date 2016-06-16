@@ -12,4 +12,4 @@ a small copy of Sina Weibo iOS App
 6. MBProgressHUD
 
 
-![DllWeibo](http://7xoxiv.com1.z0.glb.clouddn.com/dll/DllWeibo.jpg)
+![DllWeibo](http://7xoxiv.com1.z0.glb.clouddn.com/dll/DllWeibo2.jpg)
