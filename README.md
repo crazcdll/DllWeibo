@@ -10,3 +10,6 @@ a small copy of Sina Weibo iOS App
 4. MJExtension
 5. AFNetworking
 6. MBProgressHUD
+
+
+![DllWeibo](http://7xoxiv.com1.z0.glb.clouddn.com/dll/DllWeibo.jpg)
