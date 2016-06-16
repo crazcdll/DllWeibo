@@ -11,5 +11,6 @@ a small copy of Sina Weibo iOS App
 5. AFNetworking
 6. MBProgressHUD
 
+截图如下：
 
-![DllWeibo](http://7xoxiv.com1.z0.glb.clouddn.com/dll/DllWeibo2.jpg)
+![DllWeibo](http://7xoxiv.com1.z0.glb.clouddn.com/dll/DllWeibo5.jpg)
